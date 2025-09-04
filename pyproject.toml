@@ -1,0 +1,13 @@
+[project]
+name = "document-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cloudinary>=1.44.1",
+    "dotenv>=0.9.9",
+    "kafka-python>=2.2.15",
+    "pymongo>=4.14.1",
+    "redis[hiredis]>=6.4.0",
+]
